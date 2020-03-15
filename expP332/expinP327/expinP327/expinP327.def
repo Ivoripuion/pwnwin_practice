@@ -1,0 +1,9 @@
+; expinP327.def : 定义模块参数。
+
+LIBRARY      "expinP327.OCX"
+
+EXPORTS
+	DllCanUnloadNow     PRIVATE
+	DllGetClassObject   PRIVATE
+	DllRegisterServer   PRIVATE
+	DllUnregisterServer PRIVATE

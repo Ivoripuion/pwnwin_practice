@@ -1,0 +1,9 @@
+参数 参数1
+变量 变量1
+
+mov eax,0
+mov 参数1,eax
+
+mov eax,0
+mov 变量1,eax
+

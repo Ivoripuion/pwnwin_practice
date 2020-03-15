@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "expP313", "expP313\expP313.vcproj", "{BC772B2B-3B04-45AE-9F52-22FAE38CE54F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC772B2B-3B04-45AE-9F52-22FAE38CE54F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC772B2B-3B04-45AE-9F52-22FAE38CE54F}.Debug|Win32.Build.0 = Debug|Win32
+		{BC772B2B-3B04-45AE-9F52-22FAE38CE54F}.Release|Win32.ActiveCfg = Release|Win32
+		{BC772B2B-3B04-45AE-9F52-22FAE38CE54F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

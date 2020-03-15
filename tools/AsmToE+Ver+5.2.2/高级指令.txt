@@ -1,0 +1,41 @@
+//MASM 引擎
+
+mov eax,[ebp+8]
+.if eax ==[ebp+12]
+mov eax,1
+.else
+mov eax,0
+.endif
+leave
+retn 8
+
+
+//Fasm 引擎（if指令处理 自己写的）
+//可多重判断
+//支持 ≠,=,<,≤,>,≥ 这六个逻辑比较
+//理论上是可以无限个的 具体的没测试过
+
+
+if ([local.1] = 0x1)
+mov [local.2],1
+
+if ([local.2] = 1)
+mov [local.3],1
+else 
+mov [local.3],2
+end if
+
+else 
+mov [local.2],0
+
+if ([local.2] = 0)
+mov [local.3],3
+else 
+mov [local.3],4
+end if
+
+end if
+
+
+
+

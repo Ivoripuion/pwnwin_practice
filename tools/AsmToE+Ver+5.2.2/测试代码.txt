@@ -1,0 +1,12 @@
+push [ebp+10h]
+mov eax,[ebp+0Ch]
+mov eax,[eax]
+push eax
+mov eax,[ebp+8h]
+mov eax,[eax]
+push eax
+push 0
+call MessageBoxA
+mov esp,ebp
+pop ebp
+retn 0Ch

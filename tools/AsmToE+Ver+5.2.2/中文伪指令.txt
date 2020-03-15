@@ -1,0 +1,12 @@
+压栈 [ebp+10h]
+传值 eax,[ebp+0Ch]
+传值 eax,[eax]
+压栈 eax
+传值 eax,[ebp+8h]
+传值 eax,[eax]
+压栈 eax
+压栈 0
+调用 MessageBoxA
+传值 esp,ebp
+出栈 ebp
+返回 0Ch

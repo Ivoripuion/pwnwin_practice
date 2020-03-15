@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: expP125 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP50.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/expP125.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\Documents and Settings\Administrator\桌面\0day2\expP125\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP50.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP51.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/expP125.pdb" /debug /machine:I386 /out:"Debug/expP125.exe" /pdbtype:sept 
+".\Debug\main.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP51.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+c:\documents and settings\administrator\桌面\0day2\expp125\main.cpp(4) : error C2065: 'FILE' : undeclared identifier
+c:\documents and settings\administrator\桌面\0day2\expp125\main.cpp(4) : error C2065: 'fp' : undeclared identifier
+c:\documents and settings\administrator\桌面\0day2\expp125\main.cpp(4) : warning C4552: '*' : operator has no effect; expected operator with side-effect
+c:\documents and settings\administrator\桌面\0day2\expp125\main.cpp(6) : error C2065: 'strlen' : undeclared identifier
+c:\documents and settings\administrator\桌面\0day2\expp125\main.cpp(7) : error C2065: 'malloc' : undeclared identifier
+c:\documents and settings\administrator\桌面\0day2\expp125\main.cpp(10) : error C2065: 'printf' : undeclared identifier
+c:\documents and settings\administrator\桌面\0day2\expp125\main.cpp(11) : error C2065: 'exit' : undeclared identifier
+c:\documents and settings\administrator\桌面\0day2\expp125\main.cpp(18) : error C2065: 'fopen' : undeclared identifier
+c:\documents and settings\administrator\桌面\0day2\expp125\main.cpp(23) : error C2065: 'fprintf' : undeclared identifier
+c:\documents and settings\administrator\桌面\0day2\expp125\main.cpp(33) : error C2065: 'fclose' : undeclared identifier
+c:\documents and settings\administrator\桌面\0day2\expp125\main.cpp(46) : error C2065: 'free' : undeclared identifier
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+expP125.exe - 10 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

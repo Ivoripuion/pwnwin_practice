@@ -1,0 +1,53 @@
+// expinP327.idl : ActiveX 控件项目的类型库源。
+
+// 此文件将由 MIDL 编译器工具处理以
+// 产生类型库(expinP327.tlb)，该类型库将成为
+// expinP327.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(7F47B1D4-47C7-42A8-8462-1307E12C55F0), version(1.0),
+  helpfile("expinP327.hlp"),
+  helpstring("expinP327 ActiveX 控件模块"),
+  control ]
+library expinP327Lib
+{
+	importlib(STDOLE_TLB);
+
+	//  CexpinP327Ctrl 的主调度接口
+
+	[ uuid(96C4BB71-6A08-4EC3-86B5-C8A5E20103F0),
+	  helpstring("expinP327 Control 的调度接口")]
+	dispinterface _DexpinP327
+	{
+		properties:
+		methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+			[id(1), helpstring("方法test")] void test(BSTR str);
+	};
+
+	//  CexpinP327Ctrl 的事件调度接口
+
+	[ uuid(E464BBCD-D60E-414D-A97B-76F724161CBD),
+	  helpstring("expinP327 Control 的事件接口") ]
+	dispinterface _DexpinP327Events
+	{
+		properties:
+			//  事件接口没有任何属性
+
+		methods:
+	};
+
+	//  CexpinP327Ctrl 的类信息
+
+	[ uuid(38F509D3-0BD5-4C8A-AC09-61D369DDDAA1),
+	  helpstring("expinP327 Control"), control ]
+	coclass expinP327
+	{
+		[default] dispinterface _DexpinP327;
+		[default, source] dispinterface _DexpinP327Events;
+	};
+
+};

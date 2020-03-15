@@ -1,0 +1,2 @@
+movss xmm0,[ebp-08h]
+movss [ebp-0Ch],xmm0
